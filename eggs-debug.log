@@ -1,0 +1,15 @@
+Arguments:
+  init
+
+Deno version:
+  deno: 1.31.3
+  v8: 11.0.226.19
+  typescript: 4.9.4
+
+Eggs version:
+  0.3.10
+
+Platform:
+  x86_64-apple-darwin
+
+2023-11-02T15:05:09.643Z [CRITICAL] An unexpected error occurred: "Deno.setRaw is not a function" "TypeError: Deno.setRaw is not a function\n    at Input.#readChar (https://n6bl3nualttvfwnavtlz25kfnm7vgznebjgildykly44wgau6ldq.arweave.net/b4K9toBc51LZoKzXnXVFaz9TZaQKTIWPCl45yxgU8sc/prompt/_generic_prompt.ts:281:13)\n    at Input.#readKey (https://n6bl3nualttvfwnavtlz25kfnm7vgznebjgildykly44wgau6ldq.arweave.net/b4K9toBc51LZoKzXnXVFaz9TZaQKTIWPCl45yxgU8sc/prompt/_generic_prompt.ts:269:50)\n    at Input.read (https://n6bl3nualttvfwnavtlz25kfnm7vgznebjgildykly44wgau6ldq.arweave.net/b4K9toBc51LZoKzXnXVFaz9TZaQKTIWPCl45yxgU8sc/prompt/_generic_prompt.ts:169:52)\n    at Input.#execute (https://n6bl3nualttvfwnavtlz25kfnm7vgznebjgildykly44wgau6ldq.arweave.net/b4K9toBc51LZoKzXnXVFaz9TZaQKTIWPCl45yxgU8sc/prompt/_generic_prompt.ts:111:21)\n    at async Input.prompt (https://n6bl3nualttvfwnavtlz25kfnm7vgznebjgildykly44wgau6ldq.arweave.net/b4K9toBc51LZoKzXnXVFaz9TZaQKTIWPCl45yxgU8sc/prompt/_generic_prompt.ts:90:14)\n    at async Command.init [as fn] (file:///Users/vdata/Desktop/eggs/eggs/src/commands/init.ts:41:24)\n    at async Command.execute (https://n6bl3nualttvfwnavtlz25kfnm7vgznebjgildykly44wgau6ldq.arweave.net/b4K9toBc51LZoKzXnXVFaz9TZaQKTIWPCl45yxgU8sc/command/command.ts:1014:7)\n    at async Command.parse (https://n6bl3nualttvfwnavtlz25kfnm7vgznebjgildykly44wgau6ldq.arweave.net/b4K9toBc51LZoKzXnXVFaz9TZaQKTIWPCl45yxgU8sc/command/command.ts:928:16)\n    at async file:///Users/vdata/Desktop/eggs/eggs/eggs.ts:74:23"

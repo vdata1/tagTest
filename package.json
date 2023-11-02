@@ -1,0 +1,24 @@
+{
+  "name": "abdllx_tagetest",
+  "version": "1.0.0",
+  "description": "Just a simple deno pkg to test the relationship between github tags and deno.land versions.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdata1/tagTest.git"
+  },
+  "author": "abdllx_hmdn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdata1/tagTest/issues"
+  },
+  "homepage": "https://github.com/vdata1/tagTest#readme",
+  "keywords": [
+    "research",
+    "tags",
+    "versioning"
+  ]
+}
